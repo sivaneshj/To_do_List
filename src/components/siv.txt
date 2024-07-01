@@ -1,0 +1,14 @@
+<input id="text" onChange={(e) => change(e.target.value)} value="siva"
+placeholder="Enter the list"
+type="text"
+/>
+<button id="check">+</button>
+<div className="container">
+<div className="items">
+  <p>{work}</p>
+  <div className="inputs">
+    <input type="checkbox" />
+    <button>Delete</button>
+  </div>
+</div>
+</div>
